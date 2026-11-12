@@ -11,7 +11,7 @@
       "id": "mu_cad_q1",
       "number": "MU-CAD-Q1",
       "category": "Designing and Creating an Application",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Facilities team wants to manage building-access requests that involve badge provisioning, physical-security approval, and space-capacity checks. A Business Analyst has drafted process maps and conducted stakeholder interviews.\nWhat does the team evaluate next to determine whether ServiceNow is the right platform for this solution?",
       "options": [
         "Whether the core process aligns with platform capabilities for workflow, approvals, and SLA management",
@@ -34,7 +34,7 @@
       "id": "mu_cad_q2",
       "number": "MU-CAD-Q2",
       "category": "Designing and Creating an Application",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "HR requests a new scoped application to track employee certifications. Discovery shows that HR Service Delivery already covers most of the requirements.\nWhat is the recommended first step before the team approves custom development?",
       "options": [
         "Conduct a documented fit-gap assessment against HR Service Delivery",
@@ -56,7 +56,7 @@
       "id": "mu_cad_q3",
       "number": "MU-CAD-Q3",
       "category": "Designing and Creating an Application",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A department needs governed repositories of information with approval workflows, role-based access, and search. They want to avoid custom development.\nWhich platform capability does the department use?",
       "options": [
         "Knowledge Management with article workflows and user-criteria visibility",
@@ -78,7 +78,7 @@
       "id": "mu_cad_q4",
       "number": "MU-CAD-Q4",
       "category": "Designing and Creating an Application",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A legal department stores contract records on an existing custom table and needs a two-stage approval with a complete history of field changes. A Developer proposes a new scoped application to meet these needs.\nWhich factor argues against the proposal?",
       "options": [
         "Scoped applications are unable to run approval flows on tables outside their scope.",
@@ -101,7 +101,7 @@
       "id": "mu_cad_q5",
       "number": "MU-CAD-Q5",
       "category": "Designing and Creating an Application",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A business unit asks for custom fields and scripts in Global to speed delivery. The Architect expects long-term ownership by multiple teams.\nWhich approach does the Architect follow?",
       "options": [
         "Build in a private scoped application",
@@ -124,7 +124,7 @@
       "id": "mu_cad_q6",
       "number": "MU-CAD-Q6",
       "category": "Designing and Creating an Application",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "Which platform capability allows a team to capture structured requests, route multi-level approvals, and trigger task generation without custom development?",
       "options": [
         "A UI Builder page with form components and client-side task creation",
@@ -148,7 +148,7 @@
       "id": "mu_cad_q7",
       "number": "MU-CAD-Q7",
       "category": "Designing and Creating an Application",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A developer opens Schema Map and tries to create a new child table from the relationship diagram. The option is unavailable.\nWhich feature of Schema Map explains this behavior?",
       "options": [
         "It requires users with `security_admin` role.",
@@ -171,7 +171,7 @@
       "id": "mu_cad_q8",
       "number": "MU-CAD-Q8",
       "category": "Designing and Creating an Application",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Developer creates the Facilities Request [x_acme_fac_request] table, which extends the Task table. Users then create several Facilities Request records.\nWhich statement describes how these records relate to the Task table?",
       "options": [
         "The records belong to the Task table hierarchy and appear in Task lists with Facilities Request as their class.",
@@ -193,7 +193,7 @@
       "id": "mu_cad_q9",
       "number": "MU-CAD-Q9",
       "category": "Designing and Creating an Application",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "An onBefore Business Rule is defined on a parent table. New records inserted on a child table trigger the parent's Business Rule.\nWhat explains this behavior?",
       "options": [
         "Parent business rules propagate when the rule's Table field expands to include child tables.",
@@ -217,7 +217,7 @@
       "id": "mu_cad_q10",
       "number": "MU-CAD-Q10",
       "category": "Designing and Creating an Application",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Developer needs to model one request linked to multiple skills, and one skill linked to multiple requests, without duplicating values across records.\nWhich design pattern does the Developer use?",
       "options": [
         "Store links in a journal field and parse entries at runtime for relationship lookups",
@@ -240,7 +240,7 @@
       "id": "mu_cad_q11",
       "number": "MU-CAD-Q11",
       "category": "Designing and Creating an Application",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A developer writes a script that passes gr.getValue('requested_for') into an email notification body to display the requester's name. The output shows a 32-character hexadecimal string instead.\nWhat explains this behavior?",
       "options": [
         "Reference fields store `sys_id`.",
@@ -265,7 +265,7 @@
       "id": "mu_cad_q12",
       "number": "MU-CAD-Q12",
       "category": "Designing and Creating an Application",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "In a private scoped app, a Developer creates a table named `asset_registry`.\nWhat is the default naming behavior for the physical table?",
       "options": [
         "ServiceNow prefixes it with the app namespace.",
@@ -289,7 +289,7 @@
       "id": "mu_cad_q13",
       "number": "MU-CAD-Q13",
       "category": "Designing and Creating an Application",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "Which action resolves a module record with valid arguments and roles failing to appear in the application navigator?",
       "options": [
         "Set the correct module order",
@@ -313,7 +313,7 @@
       "id": "mu_cad_q14",
       "number": "MU-CAD-Q14",
       "category": "Designing and Creating an Application",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A team wants a navigator module that opens the Incident table showing only records where Active is true and Region is EMEA without using custom scripting.\nWhich module link type does the team use?",
       "options": [
         "List of Records",
@@ -338,7 +338,7 @@
       "id": "mu_cad_q15",
       "number": "MU-CAD-Q15",
       "category": "Designing and Creating an Application",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "Facilities agents need a navigator entry that opens a blank Facilities Request form so that they can create a request directly from the application menu.\nWhich module link type does the Developer select?",
       "options": [
         "Content Page",
@@ -360,7 +360,7 @@
       "id": "mu_cad_q16",
       "number": "MU-CAD-Q16",
       "category": "Designing and Creating an Application",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "Users have the role required by a module, but the module is still hidden from them in the application navigator.\nWhich statement explains this behavior?",
       "options": [
         "ACL checks on target tables are evaluated before navigator role checks.",
@@ -382,7 +382,7 @@
       "id": "mu_cad_q17",
       "number": "MU-CAD-Q17",
       "category": "Designing and Creating an Application",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "The app menu requires admin, but one specific navigation entry needs to be exposed to itil users without granting admin.\nWhich setting enables this exception?",
       "options": [
         "Set a Condition field on the module that evaluates the user's role list at render time",
@@ -406,7 +406,7 @@
       "id": "mu_cad_q18",
       "number": "MU-CAD-Q18",
       "category": "Designing and Creating an Application",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Developer in Scope A creates an application menu named Facilities. A colleague in Scope B creates modules for the same process and expects them to appear under the Facilities menu automatically. The modules appear under a different menu.\nWhich statement explains this behavior?",
       "options": [
         "Each module appears under the application menu with the highest order value.",
@@ -429,7 +429,7 @@
       "id": "mu_cad_q19",
       "number": "MU-CAD-Q19",
       "category": "Designing and Creating an Application",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "Which UI control switches the active scope?",
       "options": [
         "System Properties > Application settings",
@@ -454,7 +454,7 @@
       "id": "mu_cad_q20",
       "number": "MU-CAD-Q20",
       "category": "Designing and Creating an Application",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Business Rule in Scope A calls a Script Include in Scope B. The Script Include has Accessible from set to All application scopes and queries a table that belongs to Scope B. The call is still blocked.\nWhich configuration explains this?",
       "options": [
         "The Script Include has a Protected protection policy, which blocks calls from other scopes.",
@@ -477,7 +477,7 @@
       "id": "mu_cad_q21",
       "number": "MU-CAD-Q21",
       "category": "Designing and Creating an Application",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A table in Scope B has `Allow configuration` enabled for all application scopes. A Developer in Scope A can add a field but still is unable to query records.\nWhich statement explains this behavior?",
       "options": [
         "`Allow configuration` is ignored unless the table also extends `task`.",
@@ -502,7 +502,7 @@
       "id": "mu_cad_q22",
       "number": "MU-CAD-Q22",
       "category": "Designing and Creating an Application",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "What happens if a team asks to rename a scoped app's prefix after months of development and committed artifacts?",
       "options": [
         "Scope can be changed before first store publication.",
@@ -527,7 +527,7 @@
       "id": "mu_cad_q23",
       "number": "MU-CAD-Q23",
       "category": "Designing and Creating an Application",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A REST API call from another scope fails to read records even though table Application Access has `Can read` enabled. Which missing table setting explains this behavior?",
       "options": [
         "Add a cross-scope ACL rule granting REST operations on the table",
@@ -552,7 +552,7 @@
       "id": "mu_cad_q24",
       "number": "MU-CAD-Q24",
       "category": "Designing and Creating an Application",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "Two planned apps both include a table logically named `request`.\nWhich platform feature prevents object-name collisions?",
       "options": [
         "Each scoped app applies a unique namespace prefix to artifacts.",
@@ -577,7 +577,7 @@
       "id": "mu_cad_q25",
       "number": "MU-CAD-Q25",
       "category": "Application User Interface",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "Support Managers need to see an extended form layout; however, they only see the Default view. The custom view exists and fields are configured.\nWhat does the Developer do to address this issue?",
       "options": [
         "Set the manager view as the table's default view for all users",
@@ -601,7 +601,7 @@
       "id": "mu_cad_q26",
       "number": "MU-CAD-Q26",
       "category": "Application User Interface",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "Which element displays instructional text between fields on a form, without new table columns or persisted data?",
       "options": [
         "An annotation",
@@ -625,7 +625,7 @@
       "id": "mu_cad_q27",
       "number": "MU-CAD-Q27",
       "category": "Application User Interface",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Developer adds a reference from `u_project_task` to `u_project` and expects tasks to appear automatically on the project form. The related list fails to appear.\nWhat does the Developer do to resolve this?",
       "options": [
         "Rebuild the dictionary cache so the platform recognizes the new reference relationship",
@@ -650,7 +650,7 @@
       "id": "mu_cad_q28",
       "number": "MU-CAD-Q28",
       "category": "Application User Interface",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A client UI Action in a scoped application needs record data before the onClick logic continues.\nWhich implementation follows the supported client/server pattern?",
       "options": [
         "Enable table web services and run the GlideRecord query from onClick",
@@ -674,7 +674,7 @@
       "id": "mu_cad_q29",
       "number": "MU-CAD-Q29",
       "category": "Application User Interface",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "What makes a record page easier to scan and adds static inline guidance while preserving the existing table schema and field behavior?",
       "options": [
         "Configuring a UI policy action",
@@ -698,7 +698,7 @@
       "id": "mu_cad_q30",
       "number": "MU-CAD-Q30",
       "category": "Application User Interface",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A developer adds a new field to the Incident table using Table Builder. After saving, the field is missing on the Incident form.\nWhat is the reason?",
       "options": [
         "Publishing the application scope is required before Table Builder fields become available on forms",
@@ -721,7 +721,7 @@
       "id": "mu_cad_q31",
       "number": "MU-CAD-Q31",
       "category": "Application User Interface",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "An administrator adds a new Region column to the Facilities Request list by using Configure > List Layout. Most users see the new column, but one user who previously changed the columns of that list still sees the old columns.\nWhat does the user do to see the new column?",
       "options": [
         "Request the personalize_list role from an administrator",
@@ -742,7 +742,7 @@
       "id": "mu_cad_q32",
       "number": "MU-CAD-Q32",
       "category": "Application User Interface",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "What does a Developer do to hide a field from a form but retain it in the schema for integrations and reports?",
       "options": [
         "Set the field's Active dictionary attribute to false",
@@ -766,7 +766,7 @@
       "id": "mu_cad_q33",
       "number": "MU-CAD-Q33",
       "category": "Application User Interface",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "When adding a new field to a table, which attributes are configured as part of initial field behavior?",
       "options": [
         "Audit retention requirements",
@@ -791,7 +791,7 @@
       "id": "mu_cad_q34",
       "number": "MU-CAD-Q34",
       "category": "Application User Interface",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Developer needs fields that link records in one table to records in another table.\nWhich two field types are designed for table-to-table relationships?",
       "options": [
         "Integer",
@@ -814,7 +814,7 @@
       "id": "mu_cad_q35",
       "number": "MU-CAD-Q35",
       "category": "Application User Interface",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "Why does a Developer who calls `g_form.setMandatory()` inside a Business Rule sees no UI change on the form?",
       "options": [
         "`g_form` methods run after GlideRecord queries complete.",
@@ -840,7 +840,7 @@
       "id": "mu_cad_q36",
       "number": "MU-CAD-Q36",
       "category": "Application User Interface",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A client script appends `g_form.addInfoMessage()` during repeated field changes. Users see duplicate banners stacking on the form.\nHow does a Developer resolve this?",
       "options": [
         "Clear existing form messages before adding new ones",
@@ -865,7 +865,7 @@
       "id": "mu_cad_q37",
       "number": "MU-CAD-Q37",
       "category": "Application User Interface",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Developer uses `jslog()` in a client script and expects output in the browser developer console, but nothing appears there.\nWhat explains this?",
       "options": [
         "`jslog()` works in server-side Script Includes and requires GlideSystem context",
@@ -890,7 +890,7 @@
       "id": "mu_cad_q38",
       "number": "MU-CAD-Q38",
       "category": "Application User Interface",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "How does a Developer obtain fast root-cause isolation across message output and execution flow while debugging desktop client scripts?",
       "options": [
         "Using Scheduled Script Execution logs as the primary debugger for onChange handlers",
@@ -917,7 +917,7 @@
       "id": "mu_cad_q39",
       "number": "MU-CAD-Q39",
       "category": "Application User Interface",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "Which APIs are recommended for client-side use?",
       "options": [
         "`GlideRecord`",
@@ -942,7 +942,7 @@
       "id": "mu_cad_q40",
       "number": "MU-CAD-Q40",
       "category": "Application User Interface",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "Which GlideRecord pattern is preferred for a server script that already has a specific `sys_id` and needs to look up one record?",
       "options": [
         "`addQuery('sys_id', id)`",
@@ -965,7 +965,7 @@
       "id": "mu_cad_q41",
       "number": "MU-CAD-Q41",
       "category": "Application User Interface",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A scheduled script sets a date-time value near midnight UTC. Users in negative time zones see the date as the previous day on forms.\nWhat causes this to happen?",
       "options": [
         "The Date/Time field's dictionary type defaults to Date-only.",
@@ -987,7 +987,7 @@
       "id": "mu_cad_q42",
       "number": "MU-CAD-Q42",
       "category": "Application User Interface",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Script Include is marked `Client callable`. A Developer tries to instantiate it directly in browser code as if it were local JavaScript. It fails.\nWhat explains this?",
       "options": [
         "`Client callable` allows invocation through GlideAjax.",
@@ -1010,7 +1010,7 @@
       "id": "mu_cad_q43",
       "number": "MU-CAD-Q43",
       "category": "Application User Interface",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Developer adds gs.debug() statements to a Script Include in a scoped application to trace execution during testing. The gs.debug() statements produce no output in the System Log, while gs.error() statements in the same Script Include do.\nWhat explains this?",
       "options": [
         "The gs.debug() method writes to the browser console instead of the System Log.",
@@ -1033,7 +1033,7 @@
       "id": "mu_cad_q44",
       "number": "MU-CAD-Q44",
       "category": "Application User Interface",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "Which approaches do Developers use for server-side debugging and validation?",
       "options": [
         "Use browser network panel timing as the source of server Business Rule diagnostics",
@@ -1058,7 +1058,7 @@
       "id": "mu_cad_q45",
       "number": "MU-CAD-Q45",
       "category": "Application User Interface",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Record Producer targets the Facilities Request table, which has a Requested for [requested_for] field. The Record Producer collects the requester in a variable named requester and has no script. Users fill in the variable, but the Requested for field is empty on the created records.\nWhat explains this?",
       "options": [
         "Variables map to fields only when their labels match the field labels.",
@@ -1081,7 +1081,7 @@
       "id": "mu_cad_q46",
       "number": "MU-CAD-Q46",
       "category": "Application User Interface",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Record Producer script sets `current.short_description = current.requested_for;` and the produced record's short description is blank. The requester filled the variable on the form.\nWhat explains this behavior?",
       "options": [
         "Record Producer variables are readable only in catalog client scripts.",
@@ -1105,7 +1105,7 @@
       "id": "mu_cad_q47",
       "number": "MU-CAD-Q47",
       "category": "Application User Interface",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Record Producer script calls current.setAbortAction (true) when the submitted values fail validation. Users see a blank page after they submit.\nWhat does the Developer add to the script so that users see a meaningful page?",
       "options": [
         "Set producer.redirect to the URL of a page that explains the error",
@@ -1127,7 +1127,7 @@
       "id": "mu_cad_q48",
       "number": "MU-CAD-Q48",
       "category": "Application User Interface",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A team configures a new Record Producer with the minimum settings needed to collect data from users and create records.\nWhich two configuration areas does the team use?",
       "options": [
         "Catalog client script configuration",
@@ -1152,7 +1152,7 @@
       "id": "mu_cad_q49",
       "number": "MU-CAD-Q49",
       "category": "Security and Restricting Access",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "Why does a Developer with only the `x_acme_ops.admin` role have access to user-level functionality in an app?",
       "options": [
         "Module visibility rules promote user-role privileges into the admin role at runtime.",
@@ -1176,7 +1176,7 @@
       "id": "mu_cad_q50",
       "number": "MU-CAD-Q50",
       "category": "Security and Restricting Access",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A module has `Override application menu roles` enabled and its own role set to `itil`. The parent Application Menu requires `admin`. A user has `itil` but not `admin`.\nWhat is the expected visibility outcome?",
       "options": [
         "The user sees the module only if an ACL also grants navigator access for `itil`.",
@@ -1200,7 +1200,7 @@
       "id": "mu_cad_q51",
       "number": "MU-CAD-Q51",
       "category": "Security and Restricting Access",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "An application must be available to 400 users, and the user population changes every month. Which role assignment approach provides access with the least maintenance?",
       "options": [
         "Create an ACL for each module that checks group membership",
@@ -1222,7 +1222,7 @@
       "id": "mu_cad_q52",
       "number": "MU-CAD-Q52",
       "category": "Security and Restricting Access",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Developer creates a table in a scoped application and creates no access control lists explicitly. Users without the application's roles are unable to read the table's records.\nWhat explains this?",
       "options": [
         "Table creation generated default ACLs that require the table's user role.",
@@ -1244,7 +1244,7 @@
       "id": "mu_cad_q53",
       "number": "MU-CAD-Q53",
       "category": "Security and Restricting Access",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A custom role hierarchy is defined where `x_app.supervisor` contains `x_app.agent`. An admin removes `x_app.agent` from a user but keeps `x_app.supervisor`.\nWhat happens?",
       "options": [
         "The user loses agent-level permissions because removing the role breaks the containment chain.",
@@ -1268,7 +1268,7 @@
       "id": "mu_cad_q54",
       "number": "MU-CAD-Q54",
       "category": "Security and Restricting Access",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "What ensures module visibility in a scoped app?",
       "options": [
         "Table field ACL for `*` is set to read for authenticated users.",
@@ -1293,7 +1293,7 @@
       "id": "mu_cad_q55",
       "number": "MU-CAD-Q55",
       "category": "Security and Restricting Access",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Developer adds a script to an ACL to block unauthorized users. Testing shows that the script is skipped for certain users, who are denied before the script runs.\nWhich ACL evaluation behavior explains this?",
       "options": [
         "The ACL skips the role check when both a condition and a script are configured.",
@@ -1315,7 +1315,7 @@
       "id": "mu_cad_q56",
       "number": "MU-CAD-Q56",
       "category": "Security and Restricting Access",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A table ACL grants users read access to records. One sensitive field should remain hidden from those users.\nWhat does a Developer do?",
       "options": [
         "Extend the table ACL to cover individual field access",
@@ -1339,7 +1339,7 @@
       "id": "mu_cad_q57",
       "number": "MU-CAD-Q57",
       "category": "Security and Restricting Access",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A field-level read ACL on x_acme_hr_case.salary requires the x_acme_hr.manager role. During testing, a Developer who has only the admin role can still read the field.\nWhat explains this?",
       "options": [
         "Field-level ACLs are evaluated only during impersonation.",
@@ -1362,7 +1362,7 @@
       "id": "mu_cad_q58",
       "number": "MU-CAD-Q58",
       "category": "Security and Restricting Access",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A table has a wildcard ACL `x_app_case.*` and a specific ACL `x_app_case.priority`. Access to `priority` differs from other fields.\nWhat causes this to happen?",
       "options": [
         "The specific field ACL takes precedence over the wildcard ACL.",
@@ -1387,7 +1387,7 @@
       "id": "mu_cad_q59",
       "number": "MU-CAD-Q59",
       "category": "Security and Restricting Access",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "Which ACL operation is missing when users can perform updates, but inserts fail?",
       "options": [
         "`execute`",
@@ -1412,7 +1412,7 @@
       "id": "mu_cad_q60",
       "number": "MU-CAD-Q60",
       "category": "Security and Restricting Access",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "What is appropriate for ACL debugging?",
       "options": [
         "Reordering application modules to force ACL precedence resolution",
@@ -1437,7 +1437,7 @@
       "id": "mu_cad_q61",
       "number": "MU-CAD-Q61",
       "category": "Security and Restricting Access",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A script checks `gs.hasRole('x_app.approver')` and returns `true`, but no administrator granted that role to the user individually.\nWhat explains this?",
       "options": [
         "`gs.hasRole()` returns true for roles listed on ACL rules.",
@@ -1461,7 +1461,7 @@
       "id": "mu_cad_q62",
       "number": "MU-CAD-Q62",
       "category": "Security and Restricting Access",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "An ACL script contains the expression current.requested_for === gs.getUserID(). The expression evaluates to false even when the current user is the requester.\nWhat explains this?",
       "options": [
         "current.requested_for is a GlideElement object, while gs.getUserID() returns a string.",
@@ -1483,7 +1483,7 @@
       "id": "mu_cad_q63",
       "number": "MU-CAD-Q63",
       "category": "Security and Restricting Access",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A create ACL script checks `current.priority == 1` to allow inserts, but the insert fails even when priority is set correctly. Debugging shows the field value is null during ACL evaluation.\nWhat explains this?",
       "options": [
         "Create ACLs evaluate role lists; scripts are ignored for insert operations.",
@@ -1507,7 +1507,7 @@
       "id": "mu_cad_q64",
       "number": "MU-CAD-Q64",
       "category": "Security and Restricting Access",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A server-side security script uses gs.getUser().isMemberOf('Service Desk'). After the group is renamed IT Service Desk, the script returns false for members of the group.\nWhich change keeps the check working if the group is renamed again?",
       "options": [
         "Pass the group's sys_id to isMemberOf()",
@@ -1529,7 +1529,7 @@
       "id": "mu_cad_q65",
       "number": "MU-CAD-Q65",
       "category": "Security and Restricting Access",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Script Include method updates records only when gs.hasRole('x_acme_fac.manager') returns true. The method works when managers start it from a form. When a Scheduled Script Execution calls the same method, the role check returns false every time.\nWhat explains this?",
       "options": [
         "The role check evaluates only during interactive user sessions.",
@@ -1551,7 +1551,7 @@
       "id": "mu_cad_q66",
       "number": "MU-CAD-Q66",
       "category": "Security and Restricting Access",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "Which methods are appropriate to audit server-side security scripts that verify user authorization levels and team affiliations?",
       "options": [
         "`gs.getSession().isInteractive()`",
@@ -1578,7 +1578,7 @@
       "id": "mu_cad_q67",
       "number": "MU-CAD-Q67",
       "category": "Security and Restricting Access",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Developer sets Accessible from to This application scope only on a Script Include and expects users with the admin role to lose access to the form features that use it. Users with the admin role keep access.\nWhy does this expectation fail?",
       "options": [
         "Accessible from overrides ACL role checks for users of the Script Include.",
@@ -1600,7 +1600,7 @@
       "id": "mu_cad_q68",
       "number": "MU-CAD-Q68",
       "category": "Security and Restricting Access",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Script Include in Scope B is set to Accessible from: All application scopes. When Scope A's Business Rule calls it, the Script Include's attempt to modify a Global table is blocked.\nWhat explains why the update is blocked?",
       "options": [
         "Cross-scope privilege generation applies to specific supported operations.",
@@ -1624,7 +1624,7 @@
       "id": "mu_cad_q69",
       "number": "MU-CAD-Q69",
       "category": "Security and Restricting Access",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "What does the `Protected` protection policy enforce on distributed artifacts in the target instance?",
       "options": [
         "Administrators can export Protected code in clear text through update sets.",
@@ -1647,7 +1647,7 @@
       "id": "mu_cad_q70",
       "number": "MU-CAD-Q70",
       "category": "Security and Restricting Access",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "What does the `Allow configuration` setting do on a table?",
       "options": [
         "Other scopes can change application namespace and scope identifiers.",
@@ -1672,7 +1672,7 @@
       "id": "mu_cad_q71",
       "number": "MU-CAD-Q71",
       "category": "Security and Restricting Access",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Script Include in Scope A queries a table in Scope B and gets a cross-scope security error, even though ACLs permit the user.\nWhich setting does the Developer enable?",
       "options": [
         "Table Application Access `Can read` on the Scope B table",
@@ -1696,7 +1696,7 @@
       "id": "mu_cad_q72",
       "number": "MU-CAD-Q72",
       "category": "Security and Restricting Access",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A publisher distributes an application and needs two levels of protection: one set of application files that customers can view in read-only form, and another set whose code stays hidden from customers.\nWhich two protection policies does the publisher select?",
       "options": [
         "Protected",
@@ -1719,7 +1719,7 @@
       "id": "mu_cad_q73",
       "number": "MU-CAD-Q73",
       "category": "Application Automation",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A flow contains an If flow logic block. A Look Up Record action in the Then branch finds a record that steps after the If block also need. Referencing the action's data pill from those steps returns no value.\nWhich design gives the downstream steps a reliable value?",
       "options": [
         "Set a flow variable in each branch and use the flow variable in the downstream steps",
@@ -1742,7 +1742,7 @@
       "id": "mu_cad_q74",
       "number": "MU-CAD-Q74",
       "category": "Application Automation",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "An automation design calls one subflow from another across multiple levels, and the last subflow in the chain calls the first one again. When the design runs, the platform stops it with an exception.\nWhich platform constraint does this design exceed?",
       "options": [
         "Maximum stages per flow",
@@ -1769,7 +1769,7 @@
       "id": "mu_cad_q75",
       "number": "MU-CAD-Q75",
       "category": "Application Automation",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A record-triggered flow updates the Assignment group of Facilities Request records. The flow Run As property is set to User who initiates session. The update fails for requesters who have read-only access to the records, but it succeeds when a Developer with the admin role triggers the flow.\nWhat explains this?",
       "options": [
         "Record-triggered flows evaluate ACLs only for users with the admin role.",
@@ -1791,7 +1791,7 @@
       "id": "mu_cad_q76",
       "number": "MU-CAD-Q76",
       "category": "Application Automation",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "Why does the record state remain unchanged as the Flow reaches each stage?",
       "options": [
         "Flow stages update record fields in legacy Workflow.",
@@ -1816,7 +1816,7 @@
       "id": "mu_cad_q77",
       "number": "MU-CAD-Q77",
       "category": "Application Automation",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "Which migration strategy applies when a Workflow Editor migration includes a legacy activity that exists only in Workflow Editor?",
       "options": [
         "Map the activity to an existing Flow Designer spoke action",
@@ -1840,7 +1840,7 @@
       "id": "mu_cad_q78",
       "number": "MU-CAD-Q78",
       "category": "Application Automation",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Developer reviews a record-triggered flow.\nWhich two configuration areas determine when the flow runs?",
       "options": [
         "Trigger table and operation type",
@@ -1864,7 +1864,7 @@
       "id": "mu_cad_q79",
       "number": "MU-CAD-Q79",
       "category": "Application Automation",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A script calls `gs.getProperty('x_app.missing_key')` and later fails because no value is returned. What does `gs.getProperty()` return when a property is missing and no fallback is provided?",
       "options": [
         "`null`",
@@ -1887,7 +1887,7 @@
       "id": "mu_cad_q80",
       "number": "MU-CAD-Q80",
       "category": "Application Automation",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A module opens a properties page URL, but no properties appear despite existing records. The category string appears similar.\nWhat is the issue?",
       "options": [
         "A `List of Records` module pointing to the `sys_properties` table displays the Application Properties page.",
@@ -1911,7 +1911,7 @@
       "id": "mu_cad_q81",
       "number": "MU-CAD-Q81",
       "category": "Application Automation",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A developer creates a module in a scoped application to open the Application Properties page for that application.\nWhich module type does the Developer select?",
       "options": [
         "List of Records",
@@ -1935,7 +1935,7 @@
       "id": "mu_cad_q82",
       "number": "MU-CAD-Q82",
       "category": "Application Automation",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A script in a scoped application calls gs.setProperty('glide.ui.session_timeout', '60'), but the property keeps its previous value.\nWhat explains this?",
       "options": [
         "The gs.setProperty() method runs only in client-callable Script Includes.",
@@ -1958,7 +1958,7 @@
       "id": "mu_cad_q83",
       "number": "MU-CAD-Q83",
       "category": "Application Automation",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "The property x_acme_fac.max_retries has the value 5. A script calculates gs.getProperty('x_acme_fac.max_retries') + 1 and receives 51 instead of 6.\nWhat explains this result?",
       "options": [
         "The gs.getProperty() method returns cached values until the cache is flushed.",
@@ -1980,7 +1980,7 @@
       "id": "mu_cad_q84",
       "number": "MU-CAD-Q84",
       "category": "Application Automation",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "Server-side business logic needs to retrieve and update stored application configuration values dynamically for a scoped application.\nWhich APIs are the standard methods for these operations?",
       "options": [
         "current.getValue()",
@@ -2005,7 +2005,7 @@
       "id": "mu_cad_q85",
       "number": "MU-CAD-Q85",
       "category": "Application Automation",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Business Rule calls `gs.eventQueue('x_app.case.closed', current, parm1, parm2)` but no Script Action executes. The event is registered and the Script Action is active.\nWhich statement explains this?",
       "options": [
         "gs.eventQueue requires a scheduled job record before events dispatch.",
@@ -2029,7 +2029,7 @@
       "id": "mu_cad_q86",
       "number": "MU-CAD-Q86",
       "category": "Application Automation",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A script queues an event and immediately checks for side effects from the Script Action in the next line, but changes are not present yet.\nWhat is the cause of this?",
       "options": [
         "Event handlers execute synchronously inside the same transaction by default.",
@@ -2053,7 +2053,7 @@
       "id": "mu_cad_q87",
       "number": "MU-CAD-Q87",
       "category": "Application Automation",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Developer uses gs.eventQueue() to move complex processing to an asynchronous handler.\nWhich component runs the server-side logic when the platform processes the event?",
       "options": [
         "Event Registry",
@@ -2076,7 +2076,7 @@
       "id": "mu_cad_q88",
       "number": "MU-CAD-Q88",
       "category": "Application Automation",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A developer tries to use `g_form` and `g_user` in a Scheduled Script Execution and gets undefined errors.\nWhat is correct about script context in this scenario?",
       "options": [
         "Scheduled jobs use the last browser session context.",
@@ -2099,7 +2099,7 @@
       "id": "mu_cad_q89",
       "number": "MU-CAD-Q89",
       "category": "Application Automation",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A script include class compiles, but called methods are undefined from other scripts.\nWhich structure issue causes this?",
       "options": [
         "Script include methods require explicit access control list entries.",
@@ -2121,7 +2121,7 @@
       "id": "mu_cad_q90",
       "number": "MU-CAD-Q90",
       "category": "Application Automation",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A team duplicated the same helper logic across many Business Rules, causing drift and inconsistent fixes. Which pattern addresses this?",
       "options": [
         "Move shared logic into UI Policies so server scripts stay minimal",
@@ -2145,7 +2145,7 @@
       "id": "mu_cad_q91",
       "number": "MU-CAD-Q91",
       "category": "Application Automation",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A client script calls a script include through GlideAjax but receives \"processor not found\". The class exists, Client callable is checked, and logic is correct.\nWhat is the reason for this?",
       "options": [
         "GlideAjax requires the script include to be in Global.",
@@ -2168,7 +2168,7 @@
       "id": "mu_cad_q92",
       "number": "MU-CAD-Q92",
       "category": "Application Automation",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A design review maps an event-driven process from trigger to execution.\nWhich two elements does ServiceNow event processing use to queue an event and to run logic in response to it?",
       "options": [
         "UI Action scripts",
@@ -2193,7 +2193,7 @@
       "id": "mu_cad_q93",
       "number": "MU-CAD-Q93",
       "category": "Application Automation",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A notification has Send when set to Record inserted or updated, with only the Updated check box selected. Stakeholders report that no email is sent when a record is first created.\nWhat explains this behavior?",
       "options": [
         "The Updated check box applies only to update operations.",
@@ -2215,7 +2215,7 @@
       "id": "mu_cad_q94",
       "number": "MU-CAD-Q94",
       "category": "Application Automation",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "An inbound email action must extract a unique alphanumeric transaction ID buried in the middle of a paragraph within the email body. The ID is not prefixed with a standard field label.\nWhich email object property provides the clean, raw string content that is required for a Regular Expression search?",
       "options": [
         "email.body",
@@ -2239,7 +2239,7 @@
       "id": "mu_cad_q95",
       "number": "MU-CAD-Q95",
       "category": "Application Automation",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A notification that is configured with the condition State is Active triggers repeatedly on every subsequent update to the record, even when the state remains Active. The stakeholders only want to be notified when the record becomes Active.\nWhat is the correct configuration fix?",
       "options": [
         "Add a logical operator AND Active is true",
@@ -2264,7 +2264,7 @@
       "id": "mu_cad_q96",
       "number": "MU-CAD-Q96",
       "category": "Application Automation",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A notification must show values from the triggering record with readable display output.\nWhich two substitution formats are valid in the notification message?",
       "options": [
         "${field_name}",
@@ -2288,7 +2288,7 @@
       "id": "mu_cad_q97",
       "number": "MU-CAD-Q97",
       "category": "Working with External Data",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Developer deletes old rows from an import set table after a successful transform. A colleague worries that the deletion affects the target records.\nWhich statement describes the relationship between the staging rows and the target records?",
       "options": [
         "Target records block deletion of staging rows until a data retention rule archives them.",
@@ -2311,7 +2311,7 @@
       "id": "mu_cad_q98",
       "number": "MU-CAD-Q98",
       "category": "Working with External Data",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Transform Map uses one coalesce field. Incoming rows with that field empty are skipped instead of inserted.\nWhat causes this?",
       "options": [
         "Empty coalesce values generate transform error log entries.",
@@ -2335,7 +2335,7 @@
       "id": "mu_cad_q99",
       "number": "MU-CAD-Q99",
       "category": "Working with External Data",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Transform Map coalesces on two fields. After import, the Developer finds that the import inserted new records for rows where one coalesce field matched an existing record but the other did not.\nHow does multi-field coalesce matching work?",
       "options": [
         "All coalesce fields use AND logic.",
@@ -2358,7 +2358,7 @@
       "id": "mu_cad_q100",
       "number": "MU-CAD-Q100",
       "category": "Working with External Data",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Transform Map contains onAfter scripts, onBefore scripts, and field-level scripts. A Developer needs to set a default value before any field mapping occurs and log an audit entry after all mapping completes.\nWhich execution sequence does the platform enforce?",
       "options": [
         "`onBefore` runs first, field mapping/scripts run next, and `onAfter` runs last.",
@@ -2382,7 +2382,7 @@
       "id": "mu_cad_q101",
       "number": "MU-CAD-Q101",
       "category": "Working with External Data",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "An analyst attaches a JSON file to a File-type Data Source to load records into an import set. Each record is an element of a nested array in the file.\nWhich Data Source configuration turns each array element into an import set row?",
       "options": [
         "Set Format to CSV and enter the CSV delimiter",
@@ -2404,7 +2404,7 @@
       "id": "mu_cad_q102",
       "number": "MU-CAD-Q102",
       "category": "Working with External Data",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "An import run mixes outcomes.\nWhere can the team find direct diagnostics for failures and skipped mappings?",
       "options": [
         "Import Set table schema definition",
@@ -2429,7 +2429,7 @@
       "id": "mu_cad_q103",
       "number": "MU-CAD-Q103",
       "category": "Working with External Data",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A REST Message endpoint URL uses `${ticket_id}`, but runtime requests send the literal placeholder text instead of the resolved value. The calling script sets the variable correctly.\nWhat causes this?",
       "options": [
         "Placeholders resolve only when run from the API Explorer.",
@@ -2452,7 +2452,7 @@
       "id": "mu_cad_q104",
       "number": "MU-CAD-Q104",
       "category": "Working with External Data",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "An outbound REST call succeeds from a cloud developer instance but fails in production where the target API endpoint is not publicly addressable.\nWhat does a Developer need?",
       "options": [
         "A MID Server to route traffic to the private network",
@@ -2476,7 +2476,7 @@
       "id": "mu_cad_q105",
       "number": "MU-CAD-Q105",
       "category": "Working with External Data",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "An external system updates incident records through the Table API. The integration changes from PATCH to PUT and continues to send only the fields that changed.\nWhat happens to the fields that the request body omits?",
       "options": [
         "They cause the request to fail validation.",
@@ -2498,7 +2498,7 @@
       "id": "mu_cad_q106",
       "number": "MU-CAD-Q106",
       "category": "Working with External Data",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A scripted REST resource returns an XML response body, but API consumers cannot parse it because the response header declares a different format than what the body contains.\nWhat does the developer miss?",
       "options": [
         "The response Content-Type was not explicitly set to XML",
@@ -2522,7 +2522,7 @@
       "id": "mu_cad_q107",
       "number": "MU-CAD-Q107",
       "category": "Working with External Data",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A scripted REST API resource returns data to any caller, including requests without credentials or bearer tokens. The resource must accept only authenticated requests.\nWhich resource setting does the Developer select?",
       "options": [
         "Requires ACL authorization",
@@ -2544,7 +2544,7 @@
       "id": "mu_cad_q108",
       "number": "MU-CAD-Q108",
       "category": "Working with External Data",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "Which elements define endpoint behavior for requests and responses in a scripted REST API?",
       "options": [
         "Outbound REST Message endpoint variable settings",
@@ -2569,7 +2569,7 @@
       "id": "mu_cad_q109",
       "number": "MU-CAD-Q109",
       "category": "Managing Applications",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A partner submits a scoped application to the ServiceNow Store, but the listing is still unavailable to customers.\nWhich requirement did the partner overlook?",
       "options": [
         "Store listings require a certification review.",
@@ -2591,7 +2591,7 @@
       "id": "mu_cad_q110",
       "number": "MU-CAD-Q110",
       "category": "Managing Applications",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "An engineer updates an application release with code changes and reuses the current version.\nWhich outcome results from this action?",
       "options": [
         "The operation fails if the same version number is used.",
@@ -2615,7 +2615,7 @@
       "id": "mu_cad_q111",
       "number": "MU-CAD-Q111",
       "category": "Managing Applications",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A team publishes a release. One artifact present in the development instance is missing on target instances. The artifact belongs to the correct app scope.\nWhich configuration caused this omission?",
       "options": [
         "There is a missing artifact in the Application Files list.",
@@ -2639,7 +2639,7 @@
       "id": "mu_cad_q112",
       "number": "MU-CAD-Q112",
       "category": "Managing Applications",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "Which checks ensure a minimum pre-publish validation to prevent failed installs and missing capabilities?",
       "options": [
         "Confirm application version is incremented",
@@ -2664,7 +2664,7 @@
       "id": "mu_cad_q113",
       "number": "MU-CAD-Q113",
       "category": "Managing Applications",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A delegated developer needs a platform plugin activated for testing.\nWhich statement is correct?",
       "options": [
         "Plugin activation requires admin privileges beyond delegated development.",
@@ -2687,7 +2687,7 @@
       "id": "mu_cad_q114",
       "number": "MU-CAD-Q114",
       "category": "Managing Applications",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "After several sprints a release manager finds unreviewed code in production. The team uses Delegated Development with source control integration in Studio.\nWhich practice failure explains this outcome?",
       "options": [
         "Update Sets were committed to source control while in the In Progress state.",
@@ -2710,7 +2710,7 @@
       "id": "mu_cad_q115",
       "number": "MU-CAD-Q115",
       "category": "Managing Applications",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "Which capability statements describe delegated developer permissions for an app team?",
       "options": [
         "Delegated developers can edit global system properties.",
@@ -2736,7 +2736,7 @@
       "id": "mu_cad_q116",
       "number": "MU-CAD-Q116",
       "category": "Managing Applications",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Developer commits a scoped application to a Git repository from Studio. A teammate imports the application from source control into another instance. The tables, forms, and scripts arrive, but the records in the application's Building lookup table are missing.\nWhat explains this?",
       "options": [
         "Source control commits data records only for administrators.",
@@ -2758,7 +2758,7 @@
       "id": "mu_cad_q117",
       "number": "MU-CAD-Q117",
       "category": "Managing Applications",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Developer joins a team that keeps a scoped application in a Git repository. The application exists only in the repository and is absent from the Developer's non-production instance.\nWhich Studio action brings the application into the instance?",
       "options": [
         "Import the app from source control",
@@ -2780,7 +2780,7 @@
       "id": "mu_cad_q118",
       "number": "MU-CAD-Q118",
       "category": "Managing Applications",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "Which source control strategy prevents multiple developers from overwriting each other's changes in the same scoped application's remote repository?",
       "options": [
         "Create a tag on the main branch before starting work",
@@ -2804,7 +2804,7 @@
       "id": "mu_cad_q119",
       "number": "MU-CAD-Q119",
       "category": "Managing Applications",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Developer selects Apply Remote Changes in Studio and receives changes from an unexpected workstream.\nWhat explains this outcome?",
       "options": [
         "Apply Remote Changes pulls from the branch that received the most recent push.",
@@ -2826,7 +2826,7 @@
       "id": "mu_cad_q120",
       "number": "MU-CAD-Q120",
       "category": "Managing Applications",
-      "difficulty": "moderate",
+      "difficulty": "medium",
       "question": "A Developer links a scoped application to a Git repository from Studio for the first time. The repository is hosted on a public Git service.\nWhich two items does the Developer provide to establish the connection?",
       "options": [
         "An update set exported from the application scope",
