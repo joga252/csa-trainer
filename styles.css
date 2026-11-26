@@ -88,14 +88,14 @@ button:focus-visible, input:focus-visible, [tabindex]:focus-visible {
   max-width: 760px; margin: 0 auto; flex-wrap: wrap;
 }
 .rail-tick {
-  flex: 1 1 6px; min-width: 6px; height: 4px; border-radius: 2px;
+  flex: 0 0 8px; height: 8px; border-radius: 4px;
   background: var(--line); border: 0; padding: 0;
   transition: background 0.2s, transform 0.15s, height 0.15s;
 }
-.rail-tick:hover { transform: scaleY(2); }
+.rail-tick:hover { transform: scaleX(1.5) scaleY(1.5); }
 .rail-tick.correct { background: var(--ok); }
 .rail-tick.wrong { background: var(--bad); }
-.rail-tick.current { background: linear-gradient(90deg, var(--accent), var(--accent-2)); height: 8px; margin-top: -2px; }
+.rail-tick.current { background: linear-gradient(90deg, var(--accent), var(--accent-2)); }
 
 /* ---------- headings ---------- */
 .eyebrow {
@@ -285,8 +285,10 @@ input[type="number"] { max-width: 150px; }
 .explain .ref a:hover { color: var(--accent); border-bottom-color: var(--accent); }
 
 /* leitner boxes */
-.leitner { display: flex; align-items: center; gap: 5px; }
-.leitner .pip { width: 14px; height: 5px; border-radius: 3px; background: var(--line); transition: background 0.3s; }
+.leitner { display: flex; align-items: center; }
+.leitner .pip { width: 8px; height: 8px; background: var(--line); transition: background 0.3s; }
+.leitner .pip:nth-child(2) { border-radius: 4px 0 0 4px; border-left: 1px solid var(--accent); }
+.leitner .pip:last-child { border-radius: 0 4px 4px 0; border-right: 1px solid var(--accent); }
 .leitner .pip.on { background: var(--accent); }
 .leitner .cap { font-family: var(--font-mono); font-size: 10px; color: var(--faint); margin-right: 3px; letter-spacing: 0.1em; }
 
