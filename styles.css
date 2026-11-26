@@ -286,7 +286,7 @@ input[type="number"] { max-width: 150px; }
 
 /* leitner boxes */
 .leitner { display: flex; align-items: center; }
-.leitner .pip { width: 8px; height: 8px; background: var(--line); transition: background 0.3s; }
+.leitner .pip { width: 8px; height: 8px; background: var(--line); transition: background 0.3s; border-top: 1px solid var(--accent); border-bottom: 1px solid var(--accent); }
 .leitner .pip:nth-child(2) { border-radius: 4px 0 0 4px; border-left: 1px solid var(--accent); }
 .leitner .pip:last-child { border-radius: 0 4px 4px 0; border-right: 1px solid var(--accent); }
 .leitner .pip.on { background: var(--accent); }
