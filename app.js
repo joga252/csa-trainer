@@ -22,6 +22,7 @@ const DEFAULT_MANIFEST = {
     { id: 'csa-pdf', exam: 'CSA', label: 'Practice Exam', file: 'questions.json' },
     { id: 'csa-measureup', exam: 'CSA', label: 'MeasureUp', file: 'measureup.json' },
     { id: 'csa-skillcertpro', exam: 'CSA', label: 'SkillCertPro', file: 'skillcertpro-csa.json' },
+    { id: 'csa-snowprep', exam: 'CSA', label: 'SnowPrep', file: 'snowprep_csa.json'},
     { id: 'cad-muriellelutz', exam: 'CAD', label: 'Murielle und Lutz', file: 'cad-muriellelutz.json' },
     { id: 'cad-measureup', exam: 'CAD', label: 'MeasureUp', file: 'measureup_cad.json' },
     { id: 'cad-snowprep', exam: 'CAD', label: 'SnowPrep', file: 'snowprep_cad.json'}
