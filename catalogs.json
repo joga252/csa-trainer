@@ -25,6 +25,12 @@
       "file": "skillcertpro-csa.json"
     },
     {
+      "id": "csa-snowprep",
+      "exam": "CSA",
+      "label": "SnowPrep",
+      "file": "snowprep_csa.json"
+    },
+    {
       "id": "cad-muriellelutz",
       "exam": "CAD",
       "label": "Murielle und Lutz",
